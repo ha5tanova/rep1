@@ -1,0 +1,52 @@
+._body{
+    background-image: url('/image/main.jpg');
+    background-size: cover;
+}
+
+.menu {
+    background-color: white; /* Установка фона строки в белый цвет */
+    display: flex; /* Размещение кнопок в строке */
+  }
+  
+  .menu {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание элементов справа */
+  }
+
+  .menu button {
+    background-color: #f0f0f0; /* Задайте слегка синий цвет фона кнопок */
+    border: none; /* Убрать границу кнопок */
+    padding: 10px 20px; /* Задать отступы для кнопок */
+    margin-right: 10px; /* Задать отступ справа для кнопок */
+    color: #333; /* Задать цвет текста кнопок */
+    cursor: pointer; /* Изменить курсор при наведении */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    border-radius: 8px;
+  }
+  
+  .menu button:hover {
+    background-color: #0074e4; /* Изменение цвета фона при наведении на кнопки */
+    color: white; /* Изменение цвета текста при наведении на кнопки */
+  }  
+
+
+
+  .logo img { 
+    /*margin-left: auto; /* Переместить .logo вправо */
+
+    width: 3rem; /* Задать ширину логотипа */
+    height: 3rem; /* Задать высоту логотипа */
+    margin-right: 10px; /* Опциональный отступ справа от логотипа */
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    
+  
+  }
+
+
+  ._body{
+    background-color: #0074e4;
+    
+  }
